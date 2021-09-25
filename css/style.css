@@ -1,6 +1,36 @@
-h1 {
-  font-family: "Poppins", sans-serif;
+.heading {
+  text-align: center;
+  background-color: #efdbf2;
+  padding: 50px;
+  padding-bottom: 30px;
 }
-h2 {
+
+h1 {
   font-family: "playfair display", sans-serif;
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: "poppins", sans-serif;
+  line-height: 77px;
+}
+.btn {
+  background-color: rgb(233, 201, 237);
+  border-color: rgb(233, 201, 237);
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .heading {
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 60px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
 }
