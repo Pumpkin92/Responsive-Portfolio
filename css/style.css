@@ -2,7 +2,8 @@
   text-align: center;
   background-color: #efdbf2;
   padding: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 h1 {
@@ -15,10 +16,50 @@ h2 {
   font-family: "poppins", sans-serif;
   line-height: 77px;
 }
+p {
+  font-family: "poppins", sans-serif;
+  font-weight: 200;
+}
 .btn {
   background-color: rgb(233, 201, 237);
   border-color: rgb(233, 201, 237);
   color: black;
+}
+.weather-project {
+  margin-top: 150px;
+}
+.weather-info {
+  padding-left: 40px;
+}
+.weather-app-image {
+  width: 100%;
+  border-radius: 10px;
+
+  margin: 0 auto;
+}
+
+.landing-page-image {
+  width: 100%;
+  border-radius: 10px;
+
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.landing-info {
+  margin-top: 200px;
+  padding-right: 40px;
+}
+/*.landing-para {
+  padding-left: 100px;
+}*/
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.project-heading {
+  font-family: "playfair display", sans-serif;
+  font-size: 42px;
 }
 
 @media (max-width: 576px) {
