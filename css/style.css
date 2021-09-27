@@ -110,3 +110,53 @@ p {
     margin-top: 20px;
   }
 }
+
+.about-me {
+  font-size: 50px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: #efdbf2;
+  border: 1px solid #efdbf2;
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.heading-about {
+  margin-bottom: 90px;
+}
+.about-photo {
+  width: 80%;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.about-para {
+  margin-right: 30px;
+  margin-top: 100px;
+}
+.about-btn {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+@media (max-width: 576px) {
+  .about-me {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .about-photo {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 8px;
+    width: 100%;
+  }
+  .about-para {
+    margin-right: 0;
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
+}
