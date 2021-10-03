@@ -196,3 +196,22 @@ p {
   text-align: center;
   margin-bottom: 50px;
 }
+
+@media (max-width: 576px) {
+  .my-work {
+    font-size: 2rem;
+    width: 80%;
+  }
+  .my-work-landing-img {
+    width: 100%;
+  }
+}
+
+.get-in-touch {
+  font-size: 65px;
+}
+.contact-links {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
