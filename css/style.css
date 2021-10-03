@@ -128,7 +128,7 @@ p {
   display: block;
   margin: 0 auto;
 }
-.heading-about {
+.heading-gap {
   margin-bottom: 90px;
 }
 .about-photo {
@@ -164,4 +164,35 @@ p {
     font-size: 0.8rem;
     margin-top: 30px;
   }
+}
+
+.my-work {
+  font-size: 40px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: #efdbf2;
+  border: 1px solid #efdbf2;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+.my-work-weather-img {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+.my-work-landing-img {
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  width: 93%;
+}
+.my-work-heading {
+  text-align: center;
+}
+.my-work-para {
+  text-align: center;
+  margin-bottom: 50px;
 }
