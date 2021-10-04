@@ -215,3 +215,6 @@ p {
   margin: 0 auto;
   display: block;
 }
+.nav-color {
+  text-decoration-color: black;
+}
