@@ -152,6 +152,10 @@ p {
   transition: all 100ms ease-in-out;
 }
 
+footer p {
+  font-size: 13px;
+}
+
 @media (max-width: 576px) {
   .heading {
     padding-top: 20px;
