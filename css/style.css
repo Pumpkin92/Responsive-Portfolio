@@ -1,6 +1,10 @@
+:root {
+  --primary-color: #efdbf2;
+  --secondary-color: rgb(233, 201, 237);
+}
 .heading {
   text-align: center;
-  background-color: #efdbf2;
+  background-color: var(--primary-color);
   padding: 50px;
   padding-bottom: 80px;
   padding-top: 80px;
@@ -21,8 +25,8 @@ p {
   font-weight: 200;
 }
 .btn {
-  background-color: rgb(233, 201, 237);
-  border-color: rgb(233, 201, 237);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
   color: black;
 }
 .weather-project {
@@ -50,9 +54,6 @@ p {
   margin-top: 200px;
   padding-right: 40px;
 }
-/*.landing-para {
-  padding-left: 100px;
-}*/
 .container {
   padding-left: 100px;
   padding-right: 100px;
@@ -65,6 +66,90 @@ p {
   width: 100px;
   margin: 0 auto;
   display: block;
+}
+.about-me {
+  font-size: 50px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+.heading-gap {
+  margin-bottom: 90px;
+}
+.about-photo {
+  width: 80%;
+  border-radius: 8px;
+  margin-left: 30px;
+  margin-top: 100px;
+}
+.about-para {
+  margin-right: 30px;
+  margin-top: 100px;
+}
+.about-btn {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.my-work {
+  font-size: 40px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+.my-work-weather-img {
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 8px;
+}
+.my-work-landing-img {
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  width: 93%;
+}
+.my-work-heading {
+  text-align: center;
+}
+.my-work-para {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.get-in-touch {
+  font-size: 65px;
+}
+.contact-links {
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 50px;
+}
+
+.social-links a {
+  margin: 0 25px;
+  color: var(--secondary-color);
+  font-size: 30px;
+}
+
+.social-links a:hover {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 576px) {
@@ -114,41 +199,6 @@ p {
   .weather-project {
     margin-top: 20px;
   }
-}
-
-.about-me {
-  font-size: 50px;
-  font-family: "poppins", sans-serif;
-  text-align: center;
-  padding: 25px;
-  border-radius: 4px;
-  background-color: #efdbf2;
-  border: 1px solid #efdbf2;
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-}
-.heading-gap {
-  margin-bottom: 90px;
-}
-.about-photo {
-  width: 80%;
-  border-radius: 8px;
-  margin-left: 30px;
-  margin-top: 100px;
-}
-.about-para {
-  margin-right: 30px;
-  margin-top: 100px;
-}
-.about-btn {
-  margin: 0 auto;
-  display: block;
-  width: 200px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
-@media (max-width: 576px) {
   .about-me {
     font-size: 2rem;
     width: 80%;
@@ -164,40 +214,6 @@ p {
     font-size: 0.8rem;
     margin-top: 30px;
   }
-}
-
-.my-work {
-  font-size: 40px;
-  font-family: "poppins", sans-serif;
-  text-align: center;
-  padding: 25px;
-  border-radius: 4px;
-  background-color: #efdbf2;
-  border: 1px solid #efdbf2;
-  width: 800px;
-  display: block;
-  margin: 0 auto;
-}
-.my-work-weather-img {
-  margin-bottom: 20px;
-  width: 100%;
-  border-radius: 8px;
-}
-.my-work-landing-img {
-  margin-bottom: 20px;
-
-  border-radius: 8px;
-  width: 93%;
-}
-.my-work-heading {
-  text-align: center;
-}
-.my-work-para {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-@media (max-width: 576px) {
   .my-work {
     font-size: 2rem;
     width: 80%;
@@ -205,16 +221,4 @@ p {
   .my-work-landing-img {
     width: 100%;
   }
-}
-
-.get-in-touch {
-  font-size: 65px;
-}
-.contact-links {
-  text-align: center;
-  margin: 0 auto;
-  display: block;
-}
-.nav-color {
-  text-decoration-color: black;
 }
