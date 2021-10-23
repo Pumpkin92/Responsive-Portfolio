@@ -229,3 +229,13 @@ footer p {
     font-size: 9px;
   }
 }
+
+.technology-logos {
+  width: 35px;
+}
+
+.logo-grid {
+  margin: 0 auto;
+  padding-left: 50px;
+  text-align: center;
+}
