@@ -233,9 +233,30 @@ footer p {
 .technology-logos {
   width: 35px;
 }
+.technology-para {
+  text-align: center;
+  font-weight: bold;
+}
 
 .logo-grid {
   margin: 0 auto;
   padding-left: 50px;
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  .technology-logos {
+    width: 20px;
+  }
+  .logo-grid {
+    padding-left: 12px;
+    width: 50%;
+    padding: 5px;
+  }
+  .about-btn {
+    margin-top: 30px;
+  }
+  .logo-row-2 {
+    margin-top: 0 !important;
+  }
 }
