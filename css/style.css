@@ -183,7 +183,7 @@ footer p {
     font-size: 40px;
     padding-left: 0px;
   }
-  .landing-heading {
+  .dictionary-heading {
     padding-top: 30px;
   }
   p {
@@ -224,6 +224,7 @@ footer p {
   }
   .my-work-landing-img {
     width: 100%;
+    padding-left: 15px;
   }
   footer p {
     font-size: 9px;
@@ -242,6 +243,12 @@ footer p {
   margin: 0 auto;
   padding-left: 50px;
   text-align: center;
+}
+.fa-react {
+  color: #47ccdd;
+}
+.fa-spin {
+  animation-duration: 13s;
 }
 
 @media (max-width: 576px) {
