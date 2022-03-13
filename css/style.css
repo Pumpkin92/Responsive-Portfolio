@@ -117,7 +117,13 @@ p {
   width: 100%;
   border-radius: 8px;
 }
-.my-work-landing-img {
+.my-work-blackjack-img {
+  margin-bottom: 20px;
+
+  border-radius: 8px;
+  width: 100%;
+}
+.my-work-dictionary-img {
   margin-bottom: 20px;
 
   border-radius: 8px;
