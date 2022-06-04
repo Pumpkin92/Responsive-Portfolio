@@ -117,15 +117,15 @@ p {
   width: 100%;
   border-radius: 8px;
 }
-.my-work-blackjack-img {
+.my-work-tenzie-img {
   margin-bottom: 20px;
-
+  height: 72%;
   border-radius: 8px;
   width: 100%;
 }
 .my-work-dictionary-img {
   margin-bottom: 20px;
-
+  height: 73%;
   border-radius: 8px;
   width: 93%;
 }
@@ -271,5 +271,9 @@ footer p {
   }
   .logo-row-2 {
     margin-top: 0 !important;
+  }
+
+  .my-work-tenzie-img {
+    height: auto;
   }
 }
